@@ -192,60 +192,60 @@
 
   <div class="route-strip">
     <span class="dot"></span>
-    <span data-i18n="routeStrip"></span>
+    <span data-i18n="routeStrip">אלקטרה אפיקים תחבורה 2021 · הסכם קיבוצי</span>
     <span class="line"></span>
   </div>
 
-  <h1 data-i18n="h1"></h1>
-  <p class="lede" data-i18n="lede"></p>
+  <h1 data-i18n="h1">עמדת במשרה מלאה החודש?</h1>
+  <p class="lede" data-i18n="lede">הזינו את השעות שעבדתם החודש, וכן ימי חופשה או מחלה משולמים שנוצלו — הם נספרים לצורך הזכאות. המחשבון יבדוק מיד אם הן מזכות בחישוב חופשה, ימי מחלה משולמים והבראה לפי משרה מלאה, ואם לא, האם הגיע הזמן לפנות ולבקש השלמת שעות.</p>
 
   <div class="calc">
-    <h2 data-i18n="calcTitle"></h2>
-    <p class="sub" data-i18n="calcSub"></p>
+    <h2 data-i18n="calcTitle">המחשבון</h2>
+    <p class="sub" data-i18n="calcSub">לפי הנתונים בתלוש או בשיבוץ בפועל.</p>
 
-    <div class="group-label" data-i18n="groupWorked"></div>
+    <div class="group-label" data-i18n="groupWorked">שעות עבודה בפועל</div>
     <div class="row2">
       <div class="field">
-        <label for="regular"><span data-i18n="regularLabel"></span>
-          <span class="hint" data-i18n="regularHint"></span>
+        <label for="regular"><span data-i18n="regularLabel">שעות רגילות</span>
+          <span class="hint" data-i18n="regularHint">בלי הנוספות</span>
         </label>
         <input type="number" id="regular" inputmode="decimal" min="0" placeholder="150">
       </div>
       <div class="field">
-        <label for="totalWorked"><span data-i18n="totalLabel"></span>
-          <span class="hint" data-i18n="totalHint"></span>
+        <label for="totalWorked"><span data-i18n="totalLabel">סך הכל שעות מכל הסוגים</span>
+          <span class="hint" data-i18n="totalHint">רגילות ונוספות יחד</span>
         </label>
         <input type="number" id="totalWorked" inputmode="decimal" min="0" placeholder="170">
       </div>
     </div>
 
-    <div class="group-label" data-i18n="groupAbsence"></div>
+    <div class="group-label" data-i18n="groupAbsence">ימי היעדרות בתשלום מהחברה</div>
     <div class="row3">
       <div class="field">
-        <label for="vacation"><span data-i18n="vacationLabel"></span>
-          <span class="hint" data-i18n="vacationHint"></span>
+        <label for="vacation"><span data-i18n="vacationLabel">ימי חופשה</span>
+          <span class="hint" data-i18n="vacationHint">כל יום = 8.4 שעות</span>
         </label>
         <input type="number" id="vacation" inputmode="decimal" min="0" placeholder="0">
       </div>
       <div class="field">
-        <label for="sickFull"><span data-i18n="sickFullLabel"></span>
-          <span class="hint" data-i18n="sickFullHint"></span>
+        <label for="sickFull"><span data-i18n="sickFullLabel">ימי מחלה משולמים במלואם</span>
+          <span class="hint" data-i18n="sickFullHint">100% שכר · כל יום = 8.4 שעות</span>
         </label>
         <input type="number" id="sickFull" inputmode="decimal" min="0" placeholder="0">
       </div>
       <div class="field">
-        <label for="sickPartial"><span data-i18n="sickPartialLabel"></span>
-          <span class="hint" data-i18n="sickPartialHint"></span>
+        <label for="sickPartial"><span data-i18n="sickPartialLabel">ימי מחלה בתשלום חלקי</span>
+          <span class="hint" data-i18n="sickPartialHint">50% שכר (יום שני–שלישי) · כל יום = 4.2 שעות</span>
         </label>
         <input type="number" id="sickPartial" inputmode="decimal" min="0" placeholder="0">
       </div>
     </div>
 
-    <div class="group-label" data-i18n="groupExtra"></div>
+    <div class="group-label" data-i18n="groupExtra">נתונים נוספים</div>
 
     <div class="field">
-      <label for="day"><span data-i18n="dayLabel"></span>
-        <span class="hint" data-i18n="dayHint"></span>
+      <label for="day"><span data-i18n="dayLabel">היום הנוכחי בחודש</span>
+        <span class="hint" data-i18n="dayHint">כדי לבדוק אם הגיע מועד ההתראה על השלמת שעות</span>
       </label>
       <input type="number" id="day" inputmode="numeric" min="1" max="31" placeholder="22">
     </div>
@@ -253,46 +253,46 @@
     <label>
       <input type="checkbox" id="evening">
       <div class="toggle-row" id="eveningRow">
-        <div class="txt"><span data-i18n="eveningTxt"></span>
-          <small data-i18n="eveningSmall"></small>
+        <div class="txt"><span data-i18n="eveningTxt">משובץ קבוע בסידור עבודה ערב</span>
+          <small data-i18n="eveningSmall">משמרות קבועות א׳–ה׳, מתחילות אחרי 13:00 ומסתיימות לא לפני 20:00</small>
         </div>
         <div class="switch"></div>
       </div>
     </label>
 
     <div class="result" id="result" data-state="idle">
-      <div class="headline" data-i18n="idleHeadline"></div>
+      <div class="headline" data-i18n="idleHeadline">יש למלא לפחות שעות רגילות</div>
     </div>
   </div>
 
-  <h2 class="section-title" data-i18n="sectionTitle"></h2>
+  <h2 class="section-title" data-i18n="sectionTitle">שלושת מסלולי הזכאות</h2>
 
   <div class="tracks">
     <div class="track">
-      <div class="top"><div class="name" data-i18n="track1Name"></div><div class="figs">160<span class="slash">/</span>182</div></div>
-      <div class="desc" data-i18n="track1Desc"></div>
-      <span class="ref" data-i18n="track1Ref"></span>
+      <div class="top"><div class="name" data-i18n="track1Name">המסלול הרגיל</div><div class="figs">160<span class="slash">/</span>182</div></div>
+      <div class="desc" data-i18n="track1Desc">עובד שביצע לפחות 160 שעות רגילות, וסך כל שעותיו באותו חודש — כולל שעות נוספות — לא ירד מ-182, זכאי לחישוב ערך יום חופשה, ימי מחלה משולמים ודמי הבראה לפי היקף משרה מלא.</div>
+      <span class="ref" data-i18n="track1Ref">הסכם 2024, סעיף י׳, סעיף 20(א)</span>
     </div>
     <div class="track">
-      <div class="top"><div class="name" data-i18n="track2Name"></div><div class="figs">155<span class="slash">/</span>230</div></div>
-      <div class="desc" data-i18n="track2Desc"></div>
-      <span class="ref" data-i18n="track2Ref"></span>
+      <div class="top"><div class="name" data-i18n="track2Name">הדלת הנוספת מ-2026</div><div class="figs">155<span class="slash">/</span>230</div></div>
+      <div class="desc" data-i18n="track2Desc">מדרגה נוספת שמצטרפת למסלול הרגיל, לא מחליפה אותו: עובד שביצע לפחות 155 שעות רגילות, ובלבד שסך כל שעותיו הגיע ל-230, זכאי לאותה זכאות — גם אם לא עמד בסף המקורי. די בעמידה באחד משני המסלולים.</div>
+      <span class="ref" data-i18n="track2Ref">תוספת 2026, סעיף י״ד, סעיף 35</span>
     </div>
     <div class="track">
-      <div class="top"><div class="name" data-i18n="track3Name"></div><div class="figs">140<span class="slash">/</span>200</div></div>
-      <div class="desc" data-i18n="track3Desc"></div>
-      <span class="ref" data-i18n="track3Ref"></span>
+      <div class="top"><div class="name" data-i18n="track3Name">נהגי הערב הקבועים</div><div class="figs">140<span class="slash">/</span>200</div></div>
+      <div class="desc" data-i18n="track3Desc">עובד המשובץ קבוע בסידור עבודה ערב מאושר (ולא בשיבוץ מזדמן) זכאי לסף מופחת: 140 שעות רגילות ו-200 שעות סך הכל, בשל אופי המשמרות.</div>
+      <span class="ref" data-i18n="track3Ref">הסכם 2024, סעיף י׳, סעיף 20(ב)</span>
     </div>
   </div>
 
-  <div class="note"><strong data-i18n="note1Strong"></strong> <span data-i18n="note1Rest"></span></div>
+  <div class="note"><strong data-i18n="note1Strong">למה נספרים ימי חופשה ומחלה משולמים:</strong> <span data-i18n="note1Rest">ההסכם מגדיר "העסקה" לצורך המניין החודשי גם כיום שבגינו זכאי העובד לתשלום מהחברה — לא רק יום עבודה בפועל. יום חופשה או מחלה בתשלום מלא נספר כ-8.4 שעות (בהתאם לשבוע עבודה של 5 ימים); יום מחלה בתשלום חלקי (50%, כנהוג ביום השני והשלישי) נספר באופן יחסי, 4.2 שעות. ימי היעדרות שאינם מזכים בתשלום מהחברה — כמו חופשה ללא תשלום — אינם נספרים.</span></div>
 
-  <div class="note"><strong data-i18n="note2Strong"></strong> <span data-i18n="note2Rest"></span></div>
+  <div class="note"><strong data-i18n="note2Strong">אם מסתמן שלא תגיעו לסף:</strong> <span data-i18n="note2Rest">עד עשרה ימים לפני תום החודש רשאי העובד לפנות בכתב לממונה הישיר, להתריע שהשיבוץ הקיים לא יביא אותו לסף הרלוונטי, ולבקש השלמת שעות — בכפוף לכך שייענה לכל עבודה שתוצע לו. אם החברה לא השלימה את השעות חרף הפנייה, זכאי העובד לחישוב המלא לפי 182 שעות, כאילו עמד בסף. זו זכות הקבועה בהסכם, לא בקשת חסד.</span></div>
   <div class="note" style="border-color: var(--text-dim); opacity: 0.85;">
-    <span data-i18n="note3"></span><span class="ref" style="margin-top:4px;" data-i18n="note3Ref"></span>
+    <span data-i18n="note3">ההתראה הזו חלה גם על הסף החדש של 2026, לא רק על המסלול הרגיל.</span><span class="ref" style="margin-top:4px;" data-i18n="note3Ref">הסכם 2024, סעיפים 21–22 · תוספת 2026, סעיף 36</span>
   </div>
 
-  <footer data-i18n="footer"></footer>
+  <footer data-i18n="footer">מבוסס על התמונות שסופקו מהסכם 2024 (סעיף י׳) ותוספת 2026 (סעיף י״ד). המחשבון בודק סף חודשי בלבד ואינו מחליף עיון בהסכם המלא או בירור מול הנהלת החברה במקרה ספציפי.</footer>
 
 </div>
 
@@ -401,4 +401,144 @@
       missingTot: n => "ناقص " + n + " إجمالي",
       passHeadline: "بلغ نطاق وظيفة كاملة",
       viaPrefix: "عبر: ",
-      
+      viaJoin: " و",
+      passP: "الاستحقاق لاحتساب قيمة يوم الإجازة، أيام المرض المدفوعة وبدل الاستجمام — وفق 182 ساعة.",
+      failHeadline: "لا يستوفي حاليًا شرط الوظيفة الكاملة — يُنصح بالتوجه كتابيًا وطلب استكمال الساعات",
+      failP: "بدون بلوغ الحد لن يُحتسب وفق 182 ساعة — إلا إذا قُدِّم تنبيه مسبق (انظر أدناه).",
+      breakdown: (rw, pa, reg, tw, tot) => "ساعات عادية فعلية " + rw + " + أيام غياب مدفوعة " + pa + " = " + reg + " ساعة عادية لغرض الحد · إجمالي الساعات " + tw + " + أيام غياب مدفوعة " + pa + " = " + tot + " إجمالي لغرض الحد",
+      alert: day => "اليوم هو " + day + " من الشهر، ولم يُبلَغ الحد بعد. يُنصح بالتوجه كتابيًا إلى المسؤول المباشر وطلب استكمال الساعات حتى نهاية الشهر، وفقًا للفقرتين 21–22 من اتفاقية 2024 (والفقرة 36 من ملحق 2026)، مع الاستجابة لأي عمل يُعرض. إذا لم تُكمل الشركة الساعات رغم الطلب، تنشأ الأهلية الكاملة كما لو بلغ الحد."
+    }
+  };
+
+  let currentLang = 'he';
+
+  const regularEl = document.getElementById('regular');
+  const totalWorkedEl = document.getElementById('totalWorked');
+  const vacationEl = document.getElementById('vacation');
+  const sickFullEl = document.getElementById('sickFull');
+  const sickPartialEl = document.getElementById('sickPartial');
+  const dayEl = document.getElementById('day');
+  const eveningEl = document.getElementById('evening');
+  const eveningRow = document.getElementById('eveningRow');
+  const resultEl = document.getElementById('result');
+  const btnHe = document.getElementById('btnHe');
+  const btnAr = document.getElementById('btnAr');
+
+  function applyStaticText(lang) {
+    const dict = translations[lang];
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (dict[key] !== undefined) el.textContent = dict[key];
+    });
+    document.documentElement.lang = lang;
+  }
+
+  function setLanguage(lang) {
+    currentLang = lang;
+    applyStaticText(lang);
+    btnHe.classList.toggle('active', lang === 'he');
+    btnAr.classList.toggle('active', lang === 'ar');
+    compute();
+  }
+
+  btnHe.addEventListener('click', () => setLanguage('he'));
+  btnAr.addEventListener('click', () => setLanguage('ar'));
+
+  eveningEl.addEventListener('change', () => {
+    eveningRow.classList.toggle('on', eveningEl.checked);
+    compute();
+  });
+
+  function num(el) {
+    const v = parseFloat(el.value);
+    return Number.isFinite(v) ? v : 0;
+  }
+
+  function compute() {
+    const T = translations[currentLang];
+    const regularWorked = regularEl.value === '' ? NaN : num(regularEl);
+
+    if (!Number.isFinite(regularWorked)) {
+      resultEl.dataset.state = 'idle';
+      resultEl.innerHTML = '<div class="headline">' + T.idleHeadline + '</div>';
+      return;
+    }
+
+    const totalWorked = num(totalWorkedEl);
+    const vacationHours = num(vacationEl) * 8.4;
+    const sickFullHours = num(sickFullEl) * 8.4;
+    const sickPartialHours = num(sickPartialEl) * 4.2;
+    const paidAbsenceHours = vacationHours + sickFullHours + sickPartialHours;
+
+    const regular = regularWorked + paidAbsenceHours;
+    const total = totalWorked + paidAbsenceHours;
+    const day = parseInt(dayEl.value, 10);
+    const evening = eveningEl.checked;
+
+    const tracks = [
+      { key: 'general2024', reg: 160, tot: 182, eligible: true },
+      { key: 'add2026', reg: 155, tot: 230, eligible: true },
+      { key: 'evening', reg: 140, tot: 200, eligible: evening },
+    ];
+
+    const passed = tracks.filter(t => t.eligible && regular >= t.reg && total >= t.tot);
+
+    const rowsHtml = tracks.map(t => {
+      const regOk = regular >= t.reg;
+      const totOk = total >= t.tot;
+      const bothOk = t.eligible && regOk && totOk;
+      const cls = !t.eligible ? 'short' : (bothOk ? 'ok' : 'short');
+      let status;
+      if (!t.eligible) status = T.statusNA;
+      else if (bothOk) status = T.statusOk;
+      else {
+        const missingReg = regOk ? null : (t.reg - regular).toFixed(1);
+        const missingTot = totOk ? null : (t.tot - total).toFixed(1);
+        const parts = [];
+        if (missingReg) parts.push(T.missingReg(missingReg));
+        if (missingTot) parts.push(T.missingTot(missingTot));
+        status = parts.join(' · ');
+      }
+      return '<div><span>' + T.trackLabels[t.key] + ' (' + t.reg + '/' + t.tot + ')</span><span class="' + cls + '">' + status + '</span></div>';
+    }).join('');
+
+    const breakdownHtml = '<div class="breakdown">' + T.breakdown(regularWorked.toFixed(1), paidAbsenceHours.toFixed(1), regular.toFixed(1), totalWorked.toFixed(1), total.toFixed(1)) + '</div>';
+
+    let html = '';
+
+    if (passed.length > 0) {
+      resultEl.dataset.state = 'pass';
+      const via = passed.map(t => T.trackLabels[t.key]).join(T.viaJoin);
+      html =
+        '<div class="headline">' + T.passHeadline + ' <span class="via">' + T.viaPrefix + via + '</span></div>' +
+        '<p>' + T.passP + '</p>' +
+        breakdownHtml +
+        '<div class="gap-table">' + rowsHtml + '</div>';
+    } else {
+      resultEl.dataset.state = 'fail';
+      html =
+        '<div class="headline">' + T.failHeadline + '</div>' +
+        '<p>' + T.failP + '</p>' +
+        breakdownHtml +
+        '<div class="gap-table">' + rowsHtml + '</div>';
+
+      if (Number.isFinite(day) && day >= 20) {
+        html += '<div class="alert">' + T.alert(day) + '</div>';
+      }
+    }
+
+    resultEl.innerHTML = html;
+  }
+
+  [regularEl, totalWorkedEl, vacationEl, sickFullEl, sickPartialEl, dayEl].forEach(el => {
+    el.addEventListener('input', compute);
+  });
+
+  if (!dayEl.value) {
+    dayEl.value = new Date().getDate();
+  }
+
+  setLanguage('he');
+</script>
+</body>
+</html>
